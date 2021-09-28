@@ -21,7 +21,6 @@
             }
             
             .navbar {
-                padding: 10px 10px;
                 border: none;
                 border-radius: 0;
                 margin-bottom: 2px;
@@ -130,7 +129,7 @@
                 width: 100%;
                 transition: all 0.3s;
                 right: 0;
-                padding: 3px;
+                padding: 0px;
             }
             
             .convince {
@@ -195,7 +194,7 @@
                 }
             }
             
-            @media (max-width:560px) {
+            @media screen and (max-width:560px) {
                 .review {
                     font-size: 14px;
                     font-weight: 600
@@ -298,7 +297,7 @@
                 color: #b21f1f;
             }
             
-            @media (max-width:480px) {
+            @media screen and (max-width:480px) {
                 .about-us .card {
                     width: 250px;
                     left: 20px;
@@ -308,5 +307,14 @@
                 }
                 .convince .far {
                     display: none;
+                }
+                .home .carousel h1 {
+                    font-size: 1.5em;
+                }
+                .home .carousel p {
+                    margin-bottom: 0px;
+                    font-size: 1.0em;
+                    text-align: center;
+                    left: 10px;
                 }
             }
